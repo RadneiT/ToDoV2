@@ -1,0 +1,45 @@
+/* Estructura Principal */
+
+.survey-task {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Campo de texto */
+
+.task-input {
+    width: 350px;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #3793e5;
+    outline: none;
+}
+
+/* Boton agregar tarea */
+
+.button-task {
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    background-color: #3793e5;
+    color: #fff;
+}
+
+.button-task:hover {
+    background-color: #7487d2;
+    color:#fff;
+    padding: 13px;
+    transition: color .3s ease;
+}
+
+@media (max-width: 991px) {
+    .task-input {
+        width: 340px;
+    }
+  }

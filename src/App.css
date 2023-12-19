@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  color: white;
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Shadows Into Light Two', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.task-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Lista de Tareas */
+
+.principal-task-list {
+ max-width: 100%;
+ width: 600px;
+ min-height: 400px; 
+ background-color: #fbf8f3;
+ padding: 25px;
+ margin: 10px;
+ justify-content: center;
+ border-radius: 26px;
+}
+
+
+@media (max-width: 991px) {
+  .task-app {
+    width: 450px;
+  }
+  
+  .principal-task-list {
+    width: 100%;
+  }
+}

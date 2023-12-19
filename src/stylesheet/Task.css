@@ -1,0 +1,51 @@
+.container-task {
+    width: 500px;
+    max-width: 90%;
+    min-height: 65px;
+    background-color: transparent;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid #1b1b32;
+    cursor: pointer;
+}
+
+/* Texto */
+
+.text-task {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+    color: #000;
+}
+
+/* Icono */
+.icon-task {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    color: #000;
+}
+
+/* Tarea Completada */
+.container-task.complete {
+    background-color: #7487d2;
+    text-decoration: line-through;
+}
+
+.container-task.complete .icon-task {
+    color: #fff;
+}
+
+
+@media (max-width: 991px) {
+    .container-task {
+      width: 450px;
+    }
+  }
